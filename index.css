@@ -30,7 +30,7 @@ body {
 
 .blog-container {
     background-color: var(--container-bg-color);
-    max-width: 350px;
+    max-width: 300px;
     padding: 1.2em;
     border: 1.5px solid var(--gray-500);
     border-radius: 1em;
@@ -68,7 +68,7 @@ body {
 .body > h1 {
     font-weight: 800;
     color: var(--gray-900);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .body > h1 > a {
@@ -83,7 +83,7 @@ body {
 .body p {
     font-weight: 500;
     color: var(--gray-500);
-    font-size: 0.95em;
+    font-size: 0.8em;
     line-height: 1.4;
 }
 
