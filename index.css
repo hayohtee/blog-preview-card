@@ -30,19 +30,19 @@ body {
 
 .blog-container {
     background-color: var(--container-bg-color);
-    max-width: 300px;
-    padding: 1.2em;
+    max-width: 327px;
+    padding: 1.5em;
     border: 1.5px solid var(--gray-500);
-    border-radius: 1em;
+    border-radius: 1.25em;
     box-shadow: 10px 10px var(--gray-900);
 }
 
 .blog-container > * + * {
-    margin-block-start: 1.2em;
+    margin-block-start: 1.5em;
 }
 
 .blog-header > * + * {
-    margin-block-start: 1.2em;
+    margin-block-start: 1.5em;
 }
 
 .blog-header .blog-tag {
@@ -50,14 +50,14 @@ body {
     width: fit-content;
     color: var(--gray-900);
     padding: 0.5em 1em;
-    border-radius: 0.5em;
+    border-radius: 0.25em;
     font-weight: 800;
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 
 .blog-header .published-date {
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.75em;
     color: var(--gray-900);
 }
 
@@ -68,7 +68,7 @@ body {
 .body > h1 {
     font-weight: 800;
     color: var(--gray-900);
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 .body > h1 > a {
@@ -83,13 +83,16 @@ body {
 .body p {
     font-weight: 500;
     color: var(--gray-500);
-    font-size: 0.8em;
+    font-size: 0.875em;
     line-height: 1.4;
 }
 
 .blog-image img {
+    display: block;
     width: 100%;
-    border-radius: 1em;
+    height: 12.5em;
+    object-fit: cover;
+    border-radius: 1.25em;
 }
 
 .bio {
@@ -108,6 +111,7 @@ body {
 
 .bio .author-name {
     font-weight: 800;
+    font-size: 0.875em;
 }
 
 .attribution {
