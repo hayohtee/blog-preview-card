@@ -71,6 +71,15 @@ body {
     font-size: 1.4em;
 }
 
+.body > h1 > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body > h1 > a:hover {
+    color: var(--main-bg-color);
+}
+
 .body p {
     font-weight: 500;
     color: var(--gray-500);
