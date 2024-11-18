@@ -19,8 +19,86 @@ body {
     font-family: "Figtree", sans-serif;
 }
 
-.container {
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.blog-container {
     background-color: var(--container-bg-color);
+    max-width: 350px;
+    padding: 1.2em;
+    border: 1.5px solid var(--gray-500);
+    border-radius: 1em;
+    box-shadow: 10px 10px var(--gray-900);
+}
+
+.blog-container > * + * {
+    margin-block-start: 1.2em;
+}
+
+.blog-header > * + * {
+    margin-block-start: 1.2em;
+}
+
+.blog-header .blog-tag {
+    background-color: var(--main-bg-color);
+    width: fit-content;
+    color: var(--gray-900);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+.blog-header .published-date {
+    font-weight: 500;
+    font-size: 0.8em;
+    color: var(--gray-900);
+}
+
+.body > * + * {
+    margin-block-start: 1em;
+}
+
+.body > h1 {
+    font-weight: 800;
+    color: var(--gray-900);
+    font-size: 1.4em;
+}
+
+.body p {
+    font-weight: 500;
+    color: var(--gray-500);
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+.blog-image img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    margin-block-end: 0.5em;
+}
+
+.bio .avatar {
+    display: block;
+    width: 2em;
+    height: 2em;
+}
+
+.bio .author-name {
+    font-weight: 800;
 }
 
 .attribution {
